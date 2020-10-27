@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+}
+a[class^="link"] {
+  background-color: thistle;
+  font-size: 28px;
+  margin: 1em;
+  display: block;
+  width: 2em;
+}
+a.link1:hover {
+  color: lightblue;
+  font-weight: bolder;
+}
+a.link2:active {
+  color:red;
+  font-style: italic;
+}
+a.link3:visited {
+  color: yellow;
+}
+input:focus[name="focus"] {
+  color: green;
+  font-size: 20px;
+}
+h1{
+  color: red;
+  font-size: 2em;
+}
+ul {
+  display: flex; 
+  align-items: center;
+  list-style: none;
+}
+a{
+  font-size: 28px;
+  color: aliceblue;
+}
+li {margin:  0 2em;
+}
+li:first-child {
+  margin-left: 0;
+}
+ul {
+  background-color: darkblue;
+  width: 800px
+}
+.currentPage{
+  background-color: rgb(197, 212, 230);
+}
+li:hover {
+  background-color: lightblue;
+}
+input:focus[name="search"] {
+  border: 4px aqua solid;
+}
